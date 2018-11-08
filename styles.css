@@ -7,13 +7,13 @@ h3 {font-size: 18px;}
 header {text-align: center; text-shadow: 2px 2px 1px #808080;}
 a {color: black}
 ul {width: 720px; padding: 1px; margin: 0px auto 0px auto; text-align: center;}
-li {display: inline-block; margin: 2px 24px 2px 24px; border: 1x solid black}
+li {display: inline-block; margin: 2px 24px 2px 24px; border: 1x solid black;}
 main {text-align: center}   
-    div#Cats {float: left; outline: black 4px}
-    div#Cats-Synopsis {float: right}
-    div#Banana {float: left}
-    div#Banana-Synopsis {float: right}
-    div#Unicorn {float: left}
-    div#Unicorn-Synopsis {float: right}
-p {font-family: "Comic Sans MS", cursive, sans-serif}
-    footer {font-family: Verdana, Arial, sans-serif; vertical-align: bottom; text-align: center}
+    div#Cats {float: left; outline-color: black; outline-width: 4px;}
+    div#Cats-Synopsis {float: center; text-align: left;}
+    div#Banana {float: left;}
+    div#Banana-Synopsis {float: center; text-align: left;}
+    div#Unicorn {float: left;}
+    div#Unicorn-Synopsis {float: center; text-align: left;}
+p {font-family: "Comic Sans MS", cursive, sans-serif;}
+    footer {font-family: Verdana, Arial, sans-serif; vertical-align: bottom; text-align: center;}
