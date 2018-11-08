@@ -30,6 +30,5 @@ main {text-align: center}
     input [type=email]:hover {border-color: blue;}
     input [name=message]:hover {border-color: blue;}
     input [type=submit]:hover {border-color: blue;}
-    input [type="hidden" name="_next" value="https://site.io/thanks.html"/>
 p {font-family: "Comic Sans MS", cursive, sans-serif;}
 footer {font-family: Verdana, Arial, sans-serif; vertical-align: bottom; text-align: center;}
