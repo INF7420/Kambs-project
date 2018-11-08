@@ -8,8 +8,9 @@ header {text-align: center; text-shadow: 2px 2px 1px #808080;}
 a {color: black}
 ul {width: 720px; padding: 1px; margin: 0px auto 0px auto; text-align: center;}
 li {display: inline-block; margin: 2px 24px 2px 24px; border: 1x solid black;}
+button {background-color:white; color: black; padding: 15px 32 px; text-align: center; display: inline-block; font-family: Verdana, Arial, sans-serif;}
 main {text-align: center}   
-    div#Cats {float: left; outline-color: black; outline-width: 4px;}
+        div#Cats {float: left; outline-color: black; outline-width: 4px;}
         div#Cats-Synopsis {float: center; text-align: left;}
     div#Banana {float: left;}
         div#Banana-Synopsis {float: center; text-align: left;}
@@ -19,5 +20,16 @@ main {text-align: center}
         div#About-P {float: center; text-align: left;}
     div#Awards {float: left;}
         div#Awards-P {float: center; text-align: left;}
+    .form-input {
+        width: 300px; 
+        padding: 12px 20px; 
+        margin: 8px 0;            
+        box-sizing: border-box;
+        }
+    input [type=text]:hover {border-color: blue;}
+    input [type=email]:hover {border-color: blue;}
+    input [name=message]:hover {border-color: blue;}
+    input [type=submit]:hover {border-color: blue;}
+    input [type="hidden" name="_next" value="https://site.io/thanks.html"/>
 p {font-family: "Comic Sans MS", cursive, sans-serif;}
-    footer {font-family: Verdana, Arial, sans-serif; vertical-align: bottom; text-align: center;}
+footer {font-family: Verdana, Arial, sans-serif; vertical-align: bottom; text-align: center;}
