@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="Description" content="INF 7420 Project">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Breana Kambs Official Website</title>
+        <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <header><h1><img src="images/Kambs-Logo.png" alt="Kambs-Logo" width="67" height="38"/>
+    Breana Kambs</h1></header>
+     <nav><ul>
+        <li><a href="index.html"><h3><button>Home</h3></button></a></li>
+        <li><a href="about.html"><h3>About</h3></a></li>
+        <li><a href="books.html"><h3>Books</h3></a></li>
+        <li><a href="contact.html"><h3>Contact</h3></a></li>
+      </ul></nav>
+ <main>
+    <form action="https://formspree.io/gm4996@wayne.edu" method="POST" data-validate>
+        <div><label for="name"> Name
+            <input id="name" type="text" name="name" class="form-input">
+        </label></div>
+
+        <div><label for="email"> E-Mail
+            <input id="email" type="email" name="_replyto" class="form-input" required>
+        </label></div>
+
+        <div><label for="message"> Message
+            <textarea id="message" name="message" class="form-input" required></textarea>
+        </label></div>
+
+        <div><label for="submit">
+            <input id="submit" type="submit" value="send" class="form-input">
+        </label></div>
+        <input type="hidden" name="_next" value="https://inf7420.github.io/kambs-project.html"/>
+    </form>
+ </main>
+ <script
+ src="https://cdn.jsdelivr.net/ghcferdinandi/falidate@2.2.0/dist/validate.min.js"></script>
+ <script>validate.init();</script>
+ </body>
+</html>     
+      
