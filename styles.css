@@ -1,34 +1,47 @@
 body {font-family: Verdana, Arial, sans-serif;
     font-size: 16px;
-    background-color: white;}
+    background-color: white;
+    width: 100%; min-height: 100%;}
 h1 {font-size: 42px;}
 h2 {font-size: 24px;}
 h3 {font-size: 18px;}
 header {text-align: center; text-shadow: 2px 2px 1px #808080;}
 a {color: black}
-ul {width: 720px; padding: 1px; margin: 0px auto 0px auto; text-align: center;}
+ul {width: 850px; padding: 1px; margin: 0px auto 0px auto; text-align: center;}
 li {display: inline-block; margin: 2px 24px 2px 24px; border: 1x solid black;}
-button {background-color:white; color: black; padding: 15px 32 px; text-align: center; display: inline-block; font-family: Verdana, Arial, sans-serif;}
-main {text-align: center}   
-        div#Cats {float: left; outline-color: black; outline-width: 4px;}
-        div#Cats-Synopsis {float: center; text-align: left;}
-    div#Banana {float: left;}
-        div#Banana-Synopsis {float: center; text-align: left;}
-    div#Unicorn {float: left;}
-        div#Unicorn-Synopsis {float: center; text-align: left;}
-    div#About {float: left;}
-        div#About-P {float: center; text-align: left;}
-    div#Awards {float: left;}
-        div#Awards-P {float: center; text-align: left;}
+button {background-color: #4B0082; 
+        color: #FFF5EE; 
+        padding: 15px 32px; 
+        text-align: center; 
+        display: inline-block; 
+        font-family: Verdana, Arial, sans-serif;}   
+    div#Image {float: left; 
+                outline-color: #4B0082; 
+                outline-width: 4px;
+                padding: 10px;
+                height: 200px;}
+    div#Description {float: right; 
+                    text-align: left; 
+                    height: 127px;}
+    div#About {float: left; margin: 25px;}
+        div#About-P {float: center; text-align: left; margin: 25px; height: 400px;}
+    div#Awards {float: left; margin: 25px;}
+        div#Awards-P {float: center; text-align: left; margin: 25px; height: 100px;}
     .form-input {
         width: 300px; 
         padding: 12px 20px; 
         margin: 8px 0;            
-        box-sizing: border-box;
-        }
+        box-sizing: border-box;}
     input [type=text]:hover {border-color: blue;}
     input [type=email]:hover {border-color: blue;}
     input [name=message]:hover {border-color: blue;}
     input [type=submit]:hover {border-color: blue;}
-p {font-family: "Comic Sans MS", cursive, sans-serif;}
-footer {font-family: Verdana, Arial, sans-serif; vertical-align: bottom; text-align: center;}
+p {font-family: "Comic Sans MS", cursive, sans-serif; 
+    line-height: 1.6;
+    text-align: center;}
+footer {bottom: 0; 
+        background: white; 
+        margin: auto 0px;
+        margin-top: 150px;
+        text-align: center;
+        font-family: Verdana, Arial, sans-serif;}
