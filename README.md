@@ -6,8 +6,8 @@ I'm building an author's page. I chose this particular type of website because I
 
 I enjoy and excell at planning: a strength that is sometimes a weakness. You can view my hand-drawn wireframes below.
 
-![Wireframe of Home Page](Kambs-project/wireframes/Kambs-Wireframe-Home.png)
+![Wireframe of About Page](wireframes\Kambs-Wireframe-Home.png)
 
-![Wireframe of About Page](Kambs-project/wireframes/Kambs-Wireframe-About.png)
+![Wireframe of About Page](wireframes\Kambs-Wireframe-About.png)
 
-![Wireframe of Books Page](Kambs-project/wireframes/Kambs-Wireframe-Books.png)
+![Wireframe of Books Page](wireframes\Kambs-Wireframe-Books.png)
