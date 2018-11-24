@@ -9,16 +9,17 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css">
         <link rel="stylesheet" href="styles.css">
     </head>
-<body>
-    <header><h1><img src="images/Kambs-Logo.png" alt="Kambs-Logo" width="67" height="38"/>
-    Breana Kambs</h1></header>
-     <nav><ul>
-        <li><a href="index.html"><h3>Home</h3></h3></a></li>
-        <li><a href="about.html"><h3>About</h3></a></li>
-        <li><a href="books.html"><h3>Books</h3></h3></a></li>
-        <li><a class="active" href="contact.html"><h3>Contact</h3></a></li>
-      </ul></nav>
- <main>
+    <body>
+            <div id="header">
+                <h1><img src="images/Kambs-Logo.png" alt="Kambs-Logo" width="67" height="38"/> Breana Kambs</h1>
+            </div>
+            <div id="nav">
+                <ul>
+                    <li><a href="index.html"><h3>Home</h3></a></li>
+                    <li><a class="active" href="about.html"><h3>About</h3></a></li>
+                    <li><a href="books.html"><h3>Books</h3></a></li>
+                    <li><a href="contact.html"><h3>Contact</h3></h3></a></li>
+                </ul></nav>
     <form action="https://formspree.io/gm4996@wayne.edu" method="POST" data-validate>
         <div><label for="name"> Name
             <input id="name" type="text" name="name" class="form-input">
@@ -34,11 +35,11 @@
         </label></div>
         <input type="hidden" name="_next" value="https://inf7420.github.io/kambs-project.html"/>
     </form>
- </main>
- <footer> Breana Kambs &copy; 2018 All Rights Reserved </footer>
  <script
  src="https://cdn.jsdelivr.net/ghcferdinandi/falidate@2.2.0/dist/validate.min.js"></script>
  <script>validate.init();</script>
- </body>
+    <div id="footer"> <p>Breana Kambs &copy; 2018 All Rights Reserved</p>
+    </div> 
+</body>
 </html>     
       

@@ -2,11 +2,38 @@ body {width: 90%;
     margin: 0 auto;
     font-family: Verdana, Arial, sans-serif;
     font-size: 16px;
-    background-color: white;
-    width: 100%; min-height: 100%;}
+    background-color: white;}
+#content {overflow:auto;
+            box-align: center;}
+#nav {margin: 1%;}
+.a-image1, .a-desc1 {
+    width: 48%;
+    float: left;
+    margin: 1%;}
+.a-desc1 {margin-right: 0%;}
+.a-image2, .a-desc2 {
+    width: 48%;
+    float: left;
+    margin: 1%;}
+.a-desc2 {margin-right: 0%;}
+.b-image1, .b-image2, .b-image3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;}
+.b-image3 {margin-right: 0%;}
+.b-desc1, .b-desc2, .b-des3 {
+    width: 30%;
+    float: left;
+    margin: 1%;}
+.b-desc2 {margin-right: 0%;}
+.b-desc3 {margin-right: 0%;}
 h1 {font-size: 42px;}
 h2 {font-size: 24px;}
 h3 {font-size: 18px;}
+img.medium {
+    border: solid black;
+    width: 75%;
+    height: 75%;}
 header {text-align: center; 
         text-shadow: 2px 2px 1px #808080;}
 ul {width: 94%; 
@@ -28,40 +55,16 @@ li {width: 20%;
 a {color: #FFF5EE;}
 .active { 
     color: #caa3ff;}
-main {width: 96%;
-    text-align: center;
-    padding: 0%;
-    margin: 1%;
-    border: 0%;}
-td {align-self: center;
-    margin: 1%;
-    padding: 0.5em;}
-td.description {
-    width: 80%;
-    text-align: left;
-    border-spacing: 0% 5%;
-    padding: 0.5em;
-    margin: 5%;}
-td.books {
-    width: 80%;
-    box-align: center;
-    border: 0.15em solid black;
-    border-spacing: 0% 5%;
-    padding: 0.5em;
-    margin: 5%;}
 .form-input {
         width: 50%; 
         padding: 2% 5%; 
         margin: 2% 0%;            
-        box-sizing: border-box;}
+        box-sizing: border-box;
+        text-align: center, center;}
     input [type=text]:hover {border-color: #4B0082;}
     input [type=email]:hover {border-color: #4B0082;}
     input [name=message]:hover {border-color: #4B0082;}
     input [type=submit]:hover {border-color: #4B0082;}
-p {font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 24px; 
-    line-height: 1.6;
-    text-align: center;}
 footer {box-align: bottom fixed;
         width: 100%;
         height: 10e; 
