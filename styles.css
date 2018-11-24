@@ -1,4 +1,6 @@
-body {font-family: Verdana, Arial, sans-serif;
+body {width: 90%;
+    margin: 0 auto;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 16px;
     background-color: white;
     width: 100%; min-height: 100%;}
@@ -7,18 +9,18 @@ h2 {font-size: 24px;}
 h3 {font-size: 18px;}
 header {text-align: center; 
         text-shadow: 2px 2px 1px #808080;}
-ul {width: 100%; 
-    padding: 10px; 
-    margin: 0px auto 0px auto; 
+ul {width: 94%; 
+    padding: 1%; 
+    margin: 0% auto 0% auto; 
     text-align: center;}
 li {width: 20%;
     background-color: #4b0082;
     color: #FFF5EE;
     text-align: center;
     display: inline-block;
-    margin-right: 20px; 
+    margin-right: 1%; 
     border: 2px;
-    padding: 5px;
+    padding: 2px;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px; 
@@ -26,41 +28,46 @@ li {width: 20%;
 a {color: #FFF5EE;}
 .active { 
     color: #caa3ff;}
-main {width: 100%;
+main {width: 96%;
     text-align: center;
-    padding: 25px;
-    margin: 25px;
-    border: 25px;}
-td {border-color: black, 2px;
-    margin: 10px;
-    padding: 10px;}
+    padding: 0%;
+    margin: 1%;
+    border: 0%;}
+td {align-self: center;
+    margin: 1%;
+    padding: 0.5em;}
 td.description {
-    width: 75%;
+    width: 80%;
     text-align: left;
-    padding: 10px;
-    margin: 10px;}
+    border-spacing: 0% 5%;
+    padding: 0.5em;
+    margin: 5%;}
 td.books {
-    width: 75%;
+    width: 80%;
     box-align: center;
-    padding: 10px;
-    margin: 10px;
-    border: 4px, solid black;}
-    .form-input {
-        width: 75%; 
-        padding: 12px 20px; 
-        margin: 8px 0;            
+    border: 0%;
+    border-spacing: 0% 5%;
+    padding: 0.5em;
+    margin: 5%;}
+.form-input {
+        width: 50%; 
+        padding: 2% 5%; 
+        margin: 2% 0%;            
         box-sizing: border-box;}
     input [type=text]:hover {border-color: #4B0082;}
     input [type=email]:hover {border-color: #4B0082;}
     input [name=message]:hover {border-color: #4B0082;}
     input [type=submit]:hover {border-color: #4B0082;}
+    input [type=submit] {background-color: #4b0082}
 p {font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 24px; 
     line-height: 1.6;
     text-align: center;}
-footer {bottom: 0; 
-        background: white; 
-        margin: auto 0px;
-        margin-top: 150px;
-        text-align: center;
+footer {box-align: bottom fixed;
+        width: 100%;
+        height: 10e; 
+        text-align: center;    
+        background: #caa3ff; 
+        margin: auto 0%;
+        margin-top: 2%;
         font-family: Verdana, Arial, sans-serif;}
