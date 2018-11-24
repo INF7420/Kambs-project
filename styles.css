@@ -45,7 +45,7 @@ td.description {
 td.books {
     width: 80%;
     box-align: center;
-    border: 0%;
+    border: 0.15em solid black;
     border-spacing: 0% 5%;
     padding: 0.5em;
     margin: 5%;}
@@ -58,7 +58,6 @@ td.books {
     input [type=email]:hover {border-color: #4B0082;}
     input [name=message]:hover {border-color: #4B0082;}
     input [type=submit]:hover {border-color: #4B0082;}
-    input [type=submit] {background-color: #4b0082}
 p {font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 24px; 
     line-height: 1.6;
