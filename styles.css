@@ -1,11 +1,11 @@
 body {width: 90%;
     margin: 0 auto;
+    align-content: center;
     font-family: Verdana, Arial, sans-serif;
     font-size: 16px;
     background-color: white;}
-#content {overflow:auto;
-            box-align: center;}
-#nav {margin: 1%;}
+#content {overflow:auto;}
+#nav {margin: 1% 5% 10% 5%;}
 .a-image1, .a-desc1 {
     width: 48%;
     float: left;
@@ -17,15 +17,14 @@ body {width: 90%;
     margin: 1%;}
 .a-desc2 {margin-right: 0%;}
 .b-image1, .b-image2, .b-image3 {
-    width: 31.3%;
-    float: left;
-    margin: 1%;}
-.b-image3 {margin-right: 0%;}
-.b-desc1, .b-desc2, .b-des3 {
     width: 30%;
     float: left;
-    margin: 1%;}
-.b-desc2 {margin-right: 0%;}
+    margin: 1% 2%;}
+.b-image3 {margin-right: 0%;}
+.b-desc1, .b-desc2, .b-desc3 {
+    width: 30%;
+    float: left;
+    margin: 1% 2%;}
 .b-desc3 {margin-right: 0%;}
 h1 {font-size: 42px;}
 h2 {font-size: 24px;}
@@ -34,7 +33,10 @@ img.medium {
     border: solid black;
     width: 75%;
     height: 75%;}
-header {text-align: center; 
+img.small {
+    width: 50%;
+    height: 50%;}
+#header {text-align: center; 
         text-shadow: 2px 2px 1px #808080;}
 ul {width: 94%; 
     padding: 1%; 
@@ -65,7 +67,7 @@ a {color: #FFF5EE;}
     input [type=email]:hover {border-color: #4B0082;}
     input [name=message]:hover {border-color: #4B0082;}
     input [type=submit]:hover {border-color: #4B0082;}
-footer {box-align: bottom fixed;
+#footer {box-align: bottom fixed;
         width: 100%;
         height: 10e; 
         text-align: center;    
