@@ -4,7 +4,7 @@ body {width: 90%;
     font-family: Verdana, Arial, sans-serif;
     font-size: 16px;
     background-color: white;}
-#content {overflow:auto;}
+#content {overflow:auto; align-content: center;}
 #nav {margin: 1% 5% 10% 5%;}
 .a-image1, .a-desc1 {
     width: 48%;
@@ -18,7 +18,7 @@ body {width: 90%;
 .a-desc2 {margin-right: 0%;}
 .b-image1, .b-image2, .b-image3 {
     width: 30%;
-    float: left;
+    float: left;;
     margin: 1% 2%;}
 .b-image3 {margin-right: 0%;}
 .b-desc1, .b-desc2, .b-desc3 {
@@ -33,9 +33,9 @@ img.medium {
     border: solid black;
     width: 75%;
     height: 75%;}
-img.small {
-    width: 50%;
-    height: 50%;}
+img.median {
+    width: 65%;
+    height: 65%;}
 #header {text-align: center; 
         text-shadow: 2px 2px 1px #808080;}
 ul {width: 94%; 
