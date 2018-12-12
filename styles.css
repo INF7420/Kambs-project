@@ -1,77 +1,82 @@
-body {width: 90%;
-    margin: 0 auto;
-    align-content: center;
-    font-family: Verdana, Arial, sans-serif;
-    font-size: 16px;
-    background-color: white;}
-#content {overflow:auto; align-content: center;}
-#nav {margin: 1% 5% 10% 5%;}
-.a-image1, .a-desc1 {
-    width: 48%;
-    float: left;
-    margin: 1%;}
-.a-desc1 {margin-right: 0%;}
-.a-image2, .a-desc2 {
-    width: 48%;
-    float: left;
-    margin: 1%;}
-.a-desc2 {margin-right: 0%;}
-.b-image1, .b-image2, .b-image3 {
-    width: 30%;
-    float: left;;
-    margin: 1% 2%;}
-.b-image3 {margin-right: 0%;}
-.b-desc1, .b-desc2, .b-desc3 {
-    width: 30%;
-    float: left;
-    margin: 1% 2%;}
-.b-desc3 {margin-right: 0%;}
 h1 {font-size: 42px;}
 h2 {font-size: 24px;}
 h3 {font-size: 18px;}
-img.medium {
-    border: solid black;
-    width: 75%;
-    height: 75%;}
-img.median {
-    width: 65%;
-    height: 65%;}
-#header {text-align: center; 
-        text-shadow: 2px 2px 1px #808080;}
-ul {width: 94%; 
-    padding: 1%; 
-    margin: 0% auto 0% auto; 
-    text-align: center;}
-li {width: 20%;
-    background-color: #4b0082;
-    color: #FFF5EE;
+body {
+    font-family: Verdana, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    max-width: 1100px;
+    padding: 5px;
+    margin: 5px auto;}
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;}
+.header {
+    text-align: center; 
+    text-shadow: 2px 2px 1px #808080;}
+.nav ul {
+    padding: 5px; 
+    margin: 1px auto 1px auto; 
+    font-size: 93%;
     text-align: center;
-    display: inline-block;
-    margin-right: 1%; 
-    border: 2px;
-    padding: 2px;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px; 
-    font-family: Verdana, Arial, sans-serif;} 
-a {color: #FFF5EE;}
-.active { 
+    color: #FFF5EE;
+    font-family: Verdana, Arial, sans-serif;}
+.nav ul li {
+    display: inline-block; 
+    margin: 0px auto 0px auto;
+    padding: 5px 20px;
+    background-color: #4B0082;}
+.nav ul li a:link {
+    color: #FFF5EE;}
+.nav ul li a.active { 
     color: #caa3ff;}
+div.main {
+    text-align: center;
+    margin: 25px;}
+div.my-crazy-cats-summary, div.super-banana-summary {
+    text-align: left;
+    width: 47.5%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 25px;}
+div.my-crazy-cats, div.super-banana {
+    border: 2px solid black;
+    width: 47.5%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 25px;}
+div.unicorn-party-summary, div.endless-questions-summary {
+    text-align: left;
+    width: 47.5%;
+    margin-bottom: 25px;
+    display: inline-block;}
+div.unicorn-party, div.endless-questions {
+    border: 2px solid black;
+    width: 47.5%;
+    margin-bottom: 25px;
+    display: inline-block;}
+div.bio-image, div.award-image {
+    width: 45%;
+    float: left;
+    margin-right: 5%;}
+div.bio, div.awards {
+    text-align: left;
+    width: 50%;
+    display: inline-block;}
 .form-input {
-        width: 50%; 
-        padding: 2% 5%; 
-        margin: 2% 0%;            
-        box-sizing: border-box;
-        text-align: center, center;}
-    input [type=text]:hover {border-color: #4B0082;}
-    input [type=email]:hover {border-color: #4B0082;}
-    input [name=message]:hover {border-color: #4B0082;}
-    input [type=submit]:hover {border-color: #4B0082;}
-#footer {box-align: bottom fixed;
-        width: 100%;
-        height: 10e; 
-        text-align: center;    
-        background: #caa3ff; 
-        margin: auto 0%;
-        margin-top: 2%;
-        font-family: Verdana, Arial, sans-serif;}
+    width: 50%; 
+    padding: 2% 5%; 
+    margin: 2% 0%;            
+    box-sizing: border-box;
+    text-align: center, center;}
+        input [type=text]:hover {border-color: #4B0082;}
+        input [type=email]:hover {border-color: #4B0082;}
+        input [name=message]:hover {border-color: #4B0082;}
+        input [type=submit]:hover {border-color: #4B0082;}
+div.footer {   
+    background: #caa3ff; 
+    color: black;
+    padding: 15px 0;
+    text-align: center;}
